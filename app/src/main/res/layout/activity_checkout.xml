@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+
+
+    <!-- Personal Details Section -->
+    <TextView
+        android:id="@+id/textPersonalDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/personal_details"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:background="@drawable/edittext_bg"
+        android:hint="First Name"
+        android:inputType="textCapWords"
+        android:padding="12dp"
+        android:textColorHint="#757575"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_bg"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:padding="12dp"
+        android:textColorHint="#757575"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editHouseNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="House Number"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:background="@drawable/edittext_bg"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editStreet"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_bg"
+        android:hint="Street"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editProvince"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Province"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:background="@drawable/edittext_bg"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editCountry"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Country"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:background="@drawable/edittext_bg"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editPinCode"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_bg"
+        android:hint="Pin Code"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textColorHint="#757575"
+        android:textSize="16sp" />
+
+    <!-- Card Details Section -->
+    <TextView
+        android:id="@+id/textCardDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card Details"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editCardName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/name_on_card"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:background="@drawable/edittext_bg"
+        android:inputType="textCapWords"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_bg"
+        android:hint="Card Number"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textColorHint="#757575"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editExpirationDate"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_bg"
+            android:hint="Expiration Date"
+            android:inputType="number"
+            android:padding="12dp"
+            android:textColorHint="#757575"
+            android:textSize="16sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editCVV"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:hint="@string/cvv"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:background="@drawable/edittext_bg"
+            android:inputType="number"
+            android:autofillHints="" />
+    </LinearLayout>
+
+    <!-- Button to Confirm Checkout -->
+    <Button
+        android:id="@+id/btnConfirmCheckout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/confirm_checkout"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edittext_bg"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+
+</LinearLayout>

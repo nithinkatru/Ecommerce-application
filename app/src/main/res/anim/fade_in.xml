@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Alpha animation: Fade in from transparent to opaque -->
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="1000"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator" />
+
+    <!-- Scale animation: Grow from 50% to 100% -->
+    <scale
+        android:fromXScale="0.5"
+        android:fromYScale="0.5"
+        android:toXScale="1.0"
+        android:toYScale="1.0"
+        android:duration="800"
+        android:interpolator="@android:anim/overshoot_interpolator" />
+
+    <!-- Rotation animation: Rotate from -45 degrees to 0 degrees -->
+    <rotate
+        android:fromDegrees="-45"
+        android:toDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="800"
+        android:interpolator="@android:anim/anticipate_overshoot_interpolator" />
+
+    <!-- Translate animation: Move vertically from -100dp to 0dp -->
+    <translate
+        android:fromYDelta="-100%p"
+        android:toYDelta="0"
+        android:duration="1000"
+        android:interpolator="@android:anim/overshoot_interpolator" />
+</set>

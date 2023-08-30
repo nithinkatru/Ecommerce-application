@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">myproject</string>
+    <string name="name">Name</string>
+    <string name="card_number">Card Number</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="confirm_checkout">Confirm Checkout</string>
+    <string name="cvv">CVV</string>
+    <string name="name_on_card">Name on Card</string>
+    <string name="app_logo">\"Shop the future, today. Discover endless choices at your fingertips.\"</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+</resources>

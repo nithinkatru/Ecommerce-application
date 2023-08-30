@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Plus Icon -->
+    <item android:left="0dp" android:gravity="center_vertical">
+        <selector>
+            <item android:state_pressed="true" android:drawable="@drawable/ic_minus" />
+            <item android:drawable="@drawable/ic_plus" />
+        </selector>
+    </item>
+    <!-- Minus Icon -->
+    <item android:left="24dp" android:gravity="center_vertical">
+        <selector>
+            <item android:state_pressed="true" android:drawable="@drawable/ic_plus" />
+            <item android:drawable="@drawable/ic_minus" />
+        </selector>
+    </item>
+</layer-list>

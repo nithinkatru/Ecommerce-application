@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--     Cart Icon and Count-->
+    <item
+        android:id="@+id/action_cart"
+        android:title="Cart"
+        app:actionLayout="@layout/action_view_cart"
+        app:showAsAction="always"
+        android:icon="@drawable/trolley" />
+
+    <!-- Logo Icon -->
+    <item
+        android:id="@+id/action_logo"
+        android:title="Logo"
+        app:actionLayout="@layout/action_view_cart"
+        app:showAsAction="always"
+        android:icon="@drawable/logo_icon" />
+
+</menu>
